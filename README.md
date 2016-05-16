@@ -1,6 +1,7 @@
-9-CS-gameOfLife
+Hexahexaflexagon
 ===============
 
-Y9 Computer Science unit - the Game of Life.
+Offline CompSci one-off topic: Finite state machines
 
-Spreadsheet module.
+This work is entirely taken from cs4fn's superb resources. 
+http://www.cs4fn.org/
