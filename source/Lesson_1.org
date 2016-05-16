@@ -1,0 +1,112 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: Hexahexaflexagon
+#+AUTHOR: Stephen Brown
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stsb11/x-CS-flexagon">Fork me on GitHub</a>
+</div>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Introduction
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- The hexahexaflexagon is an example of something called a finite state machine, which is an important concept in Computer Science. 
+- Follow these instructions to build one.
+** Build  It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+- *Step 1:* Get the flexagon template, and print it onto card. Your teacher will supply you with one.
+[[./img/step_1.jpg]]
+- *Step 2:* Put a neat crease down the centre, ensuring you're careful to be accurate. 
+- Open it back up, then apply prit-stick to the back of the flexagon template, then glue the template back together so it looks like this:
+[[./img/step_1b.jpg]]
+- *Step 3:* Flip the template over and rotate it so that it's this way up:
+[[./img/step_2b.jpg]]
+- We're going to start to fold up the flexagon. As before, you'll need to ensure you're as precise as possible when making your folds, to ensure it works as smoothly as possible. 
+- Start by folding the two purple trianges on to each other, so it looks like this:
+[[./img/step_3.jpg]]
+- Then fold the green onto the green triangle...
+[[./img/step_4.jpg]]
+- Then the orange onto the orange, purple to purple and so on until your template looks like this:
+[[./img/step_5.jpg]]
+- *Step 4:* Now, starting at the 'flap 1' end, fold the two blue triangles (labelled 2 above) onto each other, so it looks like the photo below:
+[[./img/step_6.jpg]]
+- *Step 5:* Fold the next two blue triangles (also labelled 2) onto each other. Your flexagon should now look like the photo below.
+[[./img/step_7.jpg]]
+- *Step 6:* Fold the next two blue triangles onto each other (labelled 2b). Once you've folded them together, tuck 'flap 2' back behind the flexagon. It should look like the photo below (I've used a pair of scissors to stop the flexagon from springing open):
+[[./img/step_8.jpg]]
+- *Step 7:* Fold flap 1 back behind the flexagon, then turn the whole flexagon over to it looks like this:
+[[./img/step_9.jpg]]
+- *Step 8:* To finish, use a _tiny_ amount of hot glue to stick flap 1 and flap 2 together. 
+[[./img/step_10.jpg]]
+- You've now produced a hexahexaflexagon. In the next page, you'll see how to use it!

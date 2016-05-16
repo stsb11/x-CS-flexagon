@@ -1,0 +1,101 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: Flex it
+#+AUTHOR: Stephen Brown
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stsb11/x-CS-flexagon">Fork me on GitHub</a>
+</div>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Your flexible friend
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+- Initially, your flexagon will be rather stiff and difficult to move. 
+- The video below will help you get the hang of moving it around:
+#+BEGIN_HTML
+<iframe width="650" height="393" src="https://www.youtube.com/embed/DIbPK4n5gWM" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Once you've got the hang of changing the state of the flexagon, see if you can produce a map of all the different states, by finding all of the numbered sequences from 0 to 8. 
+- Remember that you can only change to a state if there are a pair of letters side by side.
+- Look at the example below:
+[[./img/l2_start.jpg]]
+- In the picture above, the flexagon is in state 3 (the central set of values). We'll refer to this as our /initial state/. 
+- We could change to state *a* or *b* from this state, as the letters are on touching edges of different triangles. 
+- No other side will allow a change as there are no other touching letters (don't try, as you'll break the flexagon).

@@ -1,0 +1,146 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: The Game of Life
+#+AUTHOR: Stephen Brown
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stsb11/9-CS-gameOfLife">Fork me on GitHub</a>
+</div>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Rent or Buy?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Everyone wants to live somewhere nice. This means different things to different people though.
+- You /could/ rent a house. This means that you pay the owner (known as the Landlord) of a house/flat/bungalow/castle a fixed amount every month and in exchange, you can live there.
+- This comes with a number of perks:
+  - If anything breaks (e.g. the boiler, doors, windows, leaky roof), you call the Landlord and it's their responsibility to fix it.
+  - You're only commited to the house for a relatively short spell (e.g. 6 momths). At the end of that time, you can either sign up for another 6 months or move to another house.
+  - You don't have to worry about organising mortgages, 
+  - You can generally (not always!) get a nicer house for less monthly cost than you'd be paying with a mortgage.
+
+- You /could/ get a mortgage. This is a large bank loan that you pay off over a considerable time (25 years normally), paying interest on top of the cost of the house every month. 
+- This also comes with a number of perks:
+  - One day, you'll own the house. You won't have to pay to live in the house ever again; renting is for life.
+  - If you want to knock down a wall, fit a hot tub, build a conservatory or fit a new kitchen, no-one can stop you.
+  - Once you own it, you have a (typically) 6-figure investment that will slowly increase in value over time. 
+
+
+- Both options sound attractive; there's no real right answer here. Both options also have pitfalls though.
+- Renting negatives:
+  - You can't change the house without the landlord's permission.
+  - If the landlord decides to sell the house one day, you may not have the option to extend your contract after it's end-date.
+  - You've got to pay rent forever. Someone with a mortgage wlil eventually pay it off and enjoy a lot more disposable income.
+  - The majority of landlords are very good, but some may be slow to respond when there are problems with your property. 
+
+- Mortgage negatives:
+  - You're on your own. If something breaks, you've got to pay for it, or leave it broken.
+  - To get a mortgage, the bank will expect you to pay around a 5% deposit of the total cost of the house. A £200,000 house means you'll need to be able to take £10,000 to get the ball rolling. You then have legal fees of around £2000 to pay for a solicitor to transfer the ownership, [[https://www.gov.uk/stamp-duty-land-tax/overviewl][stamp duty]] to pay on the purchase and you'll need to ensure you have the building itself insured in case of fire or major damage.
+  - If you ever want to move house, you'll need to sell the house through an estate agent. It can take months or even years to sell, and they'll take a percentage of the sale price (typically around 1%) as their fee.
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+- Let's find somewhere to live, two different ways.
+- Start by opening your budget sheet from last lesson. We'll be changing the value of the rental cost (=G4=) to see the effect of living in different properties.
+- Visit www.RightMove.co.uk in a new browser tab, type 'Bourne' in the location bar and then click 'To rent'.
+- Choose Bourne, Lincolnshire on the next page and click 'Find properties'.
+- Sort the results by price (highest first).
+- Using the pcm (per calendar month) values quoted, try seeing which you can afford.
+- Anything that leaves your weekly disposable income as a negative number is one you can't afford, as it'd mean you'd be getting more overdrawn every month and would eventually be evicted. 
+- Find the cheapest property that you feel you'd be content to live in, and leave that value in your spreadsheet. How much disposable income do you have?
+** Buy It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+- Let's try a mortgage for comparisson. 
+- The approach here is slightly different. You need to tell the bank how much you earn, then they'll tell you how much mortgage they're willing to lend you.
+- Banks will normally lend up to 3.5 times your annual salary as a mortgage. For instance, if you earn £25,000 a year, you could borrow up to £87,500 for a house. 
+- You'd also need to find a deposit of 5% of the house you want to buy on top of this. Let's say you'd managed to save £7500, so you could take a mortgage for up to £95,000. 
+- Open another browser tab and visit RightMove.co.uk again. Search the same location, but this time only show houses up to £100,000 (people expect to take a little less than they're asking for). 
+- How do these houses compare to the ones you were looking at?
+- You'll need to know how much the mortgage will cost you each month.
+- Visit [[http://www.moneysavingexpert.com/mortgages/mortgage-rate-calculator][this page]] in a new tab, and enter £87500 in the mortgage debt box. Leave everythin else and click Calculate. You don't need to enter your email address.
+- How much is your mortgage each month? How much money do you actually pay for the house by the time you pay it off?
+- Try this again, but change the interest rate to 5%. What happens?
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Update your spreadsheet with the rent or mortgage for the property you want. 
+- Create a guide for people leaving university to explain how housing works. You should cover:
+  - How renting and mortgages work
+  - Advantages and disadvantages of Renting vs mortgages
+  - Which you think is better, and why.
+- Your work will be graded as follows:
+- *Silver:* Concepts of renting and mortgage explained.
+- *Gold:* Advantages and disadvantages explained, justifying points made.
+- *Platinum:* Clear, well-written guide with good spelling, punctuation and grammar. Difference between interest-only and reypayment mortgages explained.
